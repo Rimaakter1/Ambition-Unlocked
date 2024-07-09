@@ -9,4 +9,35 @@
 
 body {
     font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+}
+
+
+
+
+/* nav styles starts here  */
+
+.nav-menu-container {
+    width: 1000px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-menu-container h1 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+
+}
+
+.nav-menu-container button {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+    opacity: 0.8;
+
 }
