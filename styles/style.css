@@ -15,13 +15,14 @@ body {
 
 
 
-/* nav styles starts here  */
+/* nav styles */
 
 .nav-menu-container {
-    width: 1000px;
-    margin: 25px auto;
+    width: 1080px;
+    margin: 35px auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -40,4 +41,57 @@ body {
     border-radius: 8px;
     opacity: 0.8;
 
+}
+
+
+/* banner section styles */
+.banner-container {
+    max-width: 1280px;
+    height: 652px;
+    background-image: url('../assets/hero-bg.png');
+    margin-bottom: 74px;
+}
+
+
+.banner-content {
+    width: 998px;
+    height: 582px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 26px;
+}
+
+.banner-content img {
+    width: 240.28px;
+    height: 240px;
+    margin-bottom: 32px;
+}
+
+.banner-content-title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.banner-content-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.contact-btn {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    border: none;
 }
