@@ -25,6 +25,7 @@ body {
     font-weight: 600;
     line-height: 23px;
     opacity: 0.7;
+
 }
 
 .secondary-learn-btn {
@@ -32,6 +33,10 @@ body {
     font-weight: 700;
     line-height: 19px;
     color: rgb(13, 19, 33);
+}
+
+.text-opacity {
+    opacity: 0.7;
 }
 
 /* nav styles */
@@ -67,7 +72,8 @@ body {
 .banner-container {
     max-width: 1280px;
     height: 652px;
-    background-image: url('../assets/hero-bg.png');
+    background-image: url('../assets/support-img.jpg');
+    /* url('../assets/support-img.jpg') */
     margin-bottom: 74px;
 }
 
@@ -99,7 +105,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    opacity: 0.7;
+
     margin-bottom: 32px;
 }
 
@@ -147,7 +153,7 @@ body {
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 48px;
-    opacity: 0.7;
+
 }
 
 .first-reason-container,
@@ -197,7 +203,7 @@ body {
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 32px;
-    opacity: 0.7;
+
 }
 
 .first-reason-image,
@@ -244,7 +250,7 @@ body {
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 48px;
-    opacity: 0.7;
+
 }
 
 .video-container {
@@ -259,6 +265,8 @@ body {
     border-radius: 16px;
     margin: 32px 32px;
 }
+
+/* current target styles  */
 
 .target-section-container {
     width: 1140px;
@@ -284,7 +292,7 @@ body {
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 48px;
-    opacity: 0.7;
+
 
 }
 
@@ -325,13 +333,14 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    opacity: 0.7;
+
 }
 
 
 
 
 /* next target section styles  */
+
 .next-target-section-container {
     width: 1140px;
     height: 910px;
@@ -356,7 +365,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    opacity: 0.7;
+
     margin-bottom: 48px;
 }
 
@@ -396,9 +405,12 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    opacity: 0.7;
+
     margin-bottom: 24px;
 }
+
+
+/*i need support section styles  */
 
 .support-section-container {
     width: 1140px;
@@ -459,6 +471,9 @@ input[type=submit] {
     line-height: 23px;
 
 }
+
+
+/* footer styles  */
 
 .footer-container {
     max-width: 1280px;
