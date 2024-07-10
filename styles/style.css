@@ -72,7 +72,7 @@ body {
 .banner-container {
     max-width: 1280px;
     height: 652px;
-    background-image: url('../assets/support-img.jpg');
+    background-image: url('../assets/hero-img.png');
     /* url('../assets/support-img.jpg') */
     margin-bottom: 74px;
 }
