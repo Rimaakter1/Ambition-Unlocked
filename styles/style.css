@@ -73,7 +73,6 @@ body {
     max-width: 1280px;
     height: 652px;
     background-image: url('../assets/hero-img.png');
-    /* url('../assets/support-img.jpg') */
     margin-bottom: 74px;
 }
 
@@ -417,7 +416,7 @@ body {
     height: 314px;
     margin: 0 auto 80px auto;
     border-radius: 16px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/support-img.jpg');
+    background-image: linear-gradient(rgba(2, 2, 2, 0.388), rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.2)), url('../assets/support-img.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
